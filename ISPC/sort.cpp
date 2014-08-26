@@ -38,7 +38,7 @@
 #include <algorithm>
 #include <iostream>
 #include <iomanip>
-#include "../timing.h"
+#include "timing.h"
 #include "sort_ispc.h"
 
 using namespace ispc;

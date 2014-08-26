@@ -1,7 +1,7 @@
  //Seq Radix Sort by Konstantinos Krestenitis
 #include <string.h>
 
-void sort_serial (unsigned int nSize, unsigned int number[], unsigned int order[]){
+void sort_serial (int nSize, unsigned int number[], int order[]){
   unsigned int counter=0, bucket[16][50000] = {0}; unsigned char digit;
   for(unsigned char i=0;i<8;i++){
     for(unsigned int y=0;y<nSize;y++){
